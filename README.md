@@ -1,8 +1,36 @@
 #buildspace Polygon NFT Drop Site
-### Welcome 👋
-Wondering how to use these? Sign up for a free project that will have you ready in a weekend!
+## buildspace Polygon ENS Mint (Front-End)
 
-[Buildspace.so](https://buildspace.so/)
+![image](/public/livesite.png)
 
-### Questions?
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/CO77556be5-25e9-49dd-a799-91a2fc29520e) and link your Discord account so you can get access to helpful channels and your instructor!
+## Welcome 👋
+This is the front-end for a Polygon ENS NFT mint site. You can see the full project, including how to create and edit the smart contract, on [buildspace](https://buildspace.so/polygon).
+
+## How to get things working
+To mint your own ENS style domain name on Polygon, change the following:
+
+- Update Contract Address
+- Update Front-End ABI File
+
+**Contract Address**
+```
+/src/App.js
+const CONTRACT_ADDRESS = "";
+```
+**ABI File**
+```
+/utils/Domains.json
+{
+    "_format": "hh-sol-artifact-1",
+    "contractName": "",
+    "sourceName": "",
+    "abi": [],
+    "bytecode": "",
+    "deployedBytecode": "",
+    "linkReferences": {},
+    "deployedLinkReferences": {}
+}
+```
+
+## Questions?
+Have some questions make sure you head over to your [buildspace Dashboard](https://buildspace.so/p/build-polygon-ens) and link your Discord account so you can get access to helpful channels and your instructor!
