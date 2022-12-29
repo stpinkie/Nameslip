@@ -1,36 +1,13 @@
-#buildspace Polygon NFT Drop Site
-## buildspace Polygon ENS Mint (Front-End)
+# Sample Hardhat Project
 
-![image](/public/livesite.png)
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-## Welcome 👋
-This is the front-end for a Polygon ENS NFT mint site. You can see the full project, including how to create and edit the smart contract, on [buildspace](https://buildspace.so/polygon).
+Try running some of the following tasks:
 
-## How to get things working
-To mint your own ENS style domain name on Polygon, change the following:
-
-- Update Contract Address
-- Update Front-End ABI File
-
-**Contract Address**
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
 ```
-/src/App.js
-const CONTRACT_ADDRESS = "";
-```
-**ABI File**
-```
-/utils/Domains.json
-{
-    "_format": "hh-sol-artifact-1",
-    "contractName": "",
-    "sourceName": "",
-    "abi": [],
-    "bytecode": "",
-    "deployedBytecode": "",
-    "linkReferences": {},
-    "deployedLinkReferences": {}
-}
-```
-
-## Questions?
-Have some questions make sure you head over to your [buildspace Dashboard](https://buildspace.so/p/build-polygon-ens) and link your Discord account so you can get access to helpful channels and your instructor!
